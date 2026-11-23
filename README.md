@@ -1,16 +1,40 @@
-## Hi there 👋
+# 于跃 / LlewynLune
 
-<!--
-**LlewynLune/LlewynLune** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> AI 工作流可靠性与可复核工程实验。当前作品为 AI 辅助搭建的合成负载研究原型；不将其包装成过去独立研发或生产项目。
 
-Here are some ideas to get you started:
+## 关于我
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+我正在建设一个围绕真实用户问题、可验证实验和稳定交付的 AI 作品集。
+
+当前状态：代码与静态展示已公开；AI 辅助实现与个人贡献分开记录。
+
+## 我关注的问题
+
+- 如何把 AI 能力放进真实工作流，而不是只生成一次性回答。
+- 如何用基线、评测和失败样本判断 AI 是否真的有效。
+- 如何通过可靠的工程机制处理异常、复现和成本问题。
+
+## 作品集入口
+
+[完整代码与文档](https://github.com/LlewynLune/ai-portfolio) · [作品集网站](https://llewynlune.github.io/ai-portfolio/) · [在线交互展示](https://llewynlune.github.io/ai-portfolio/projects/reliability-lab/demo.html)
+
+## 项目
+
+**FlowBench｜AI 工作流可靠性实验台**
+
+围绕暂时性错误、永久错误、慢任务和提交应答丢失，比较重试、超时、检查点与幂等提交。包含本地运行时、固定故障清单、原始实测、交互页面与测试。
+
+AI 辅助搭建；合成 I/O 而非模型推理，无生产降本结论。个人理解、修改和实验贡献待记录。
+
+包含真实本机计时的原始合成实验、31 项测试、故障轨迹和复现说明；在线页面只展示实测，重新运行须启动本机 Python 服务。
+
+## 公开链接
+
+[GitHub](https://github.com/LlewynLune)；未公开邮箱、工作经历、教育或内部资料。
+
+## 原则
+
+- 不把团队成果写成个人独立成果。
+- 不把未测量的预期收益写成真实数字。
+- 不上传内部文档、代码、数据、截图或凭证。
+- 原型、模拟、复现和上线分别标注。
